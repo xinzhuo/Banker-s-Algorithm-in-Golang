@@ -14,19 +14,19 @@ If the given state is safe, which means its all subsequent states are safe, the 
 The program also have a timer to measure its performance with different test cases  
 
 Result:  
-|tests		| Bankers	| LIFO	| FIFO	|  
-|-----------|-----------|-------|-------|  
-|test1		| fail		| fail 	| fail	|  
-|test2		| pass		| pass	| pass 	|  
-|test3		| fail		| fail	| fail	|  
-|test4		| pass		| fail	| fail 	|  
-|test5		| pass		| fail 	| fail 	|  
-|test6		| pass		| fail	| fail	|  
-|test7		| fail		| fail	| fail 	|  
-|test8		| pass		| pass	| fail	|  
-|test9		| pass		| pass	| fail	|  
-|test10		| pass		| fail	| fail	|  
-|Overall	| 70%		| 30%	| 10%	|  
+| tests		| Bankers	| LIFO	| FIFO	|  
+| --------- | --------- | ----- | ----- |  
+| test1		| fail		| fail 	| fail	|  
+| test2		| pass		| pass	| pass 	|  
+| test3		| fail		| fail	| fail	|  
+| test4		| pass		| fail	| fail 	|  
+| test5		| pass		| fail 	| fail 	|  
+| test6		| pass		| fail	| fail	|  
+| test7		| fail		| fail	| fail 	|  
+| test8		| pass		| pass	| fail	|  
+| test9		| pass		| pass	| fail	|  
+| test10	| pass		| fail	| fail	|  
+| Overall	| 70%		| 30%	| 10%	|  
 
 Running time (in micro second):  
 |tests		| Bankers	| LIFO	| FIFO	|  
