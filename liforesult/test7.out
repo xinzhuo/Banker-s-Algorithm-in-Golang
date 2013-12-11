@@ -1,0 +1,26 @@
+
+The resource of instances:[10 8 9]
+
+The maximum resource table: 
+[1 0 1]
+[10 4 5]
+[9 5 6]
+[4 3 2]
+[0 5 6]
+
+The allocated resource table: 
+[0 0 0]
+[3 3 3]
+[0 4 5]
+[0 0 0]
+[0 0 0]
+
+Allocated resources: [3 7 8]
+
+Available resources: [7 1 1]
+
+Running Status: [true true true true true]
+
+The processes are in not safe under LIFO (Need better scheduling mechnism).
+
+LIFO took 333us

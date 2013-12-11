@@ -1,0 +1,33 @@
+
+The resource of instances:[7]
+
+The maximum resource table: 
+[6]
+[5]
+[2]
+
+The allocated resource table: 
+[2]
+[3]
+[1]
+
+Allocated resources: [6]
+
+Available resources: [1]
+
+Running Status: [true true true]
+
+Process 3 is executing
+	The processes are in safe state
+	Available resources:[2]
+
+Process 2 is executing
+	The processes are in safe state
+	Available resources:[5]
+
+Process 1 is executing
+	The processes are in safe state
+	Available resources:[7]
+
+
+LIFO took 146us

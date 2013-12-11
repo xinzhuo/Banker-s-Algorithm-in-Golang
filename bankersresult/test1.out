@@ -1,0 +1,18 @@
+
+The instances of the resources:[3]
+
+The maximum resource table: 
+[4]
+
+The allocated resource table: 
+[0]
+
+Allocated resources: [0]
+
+Available resources: [3]
+
+Running Status: [true]
+
+The processes are in unsafe state (May cause deadlock).
+
+Banker's Algorithm took 146us

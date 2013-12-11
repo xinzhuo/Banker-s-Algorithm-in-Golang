@@ -1,0 +1,21 @@
+
+The instances of the resources:[3]
+
+The maximum resource table: 
+[3]
+
+The allocated resource table: 
+[2]
+
+Allocated resources: [2]
+
+Available resources: [1]
+
+Running Status: [true]
+
+Process 1 is executing
+	The processes are in safe state
+	Available resources:[3]
+
+
+Banker's Algorithm took 149us

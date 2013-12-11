@@ -1,0 +1,33 @@
+
+The instances of the resources:[2 3 5 8 5 3 6 3 7 3]
+
+The maximum resource table: 
+[2 2 3 7 3 2 4 2 2 2]
+[1 1 1 1 1 1 1 1 1 1]
+[1 2 3 4 5 0 0 2 4 1]
+
+The allocated resource table: 
+[0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 1]
+[1 1 1 1 1 1 1 1 1 1]
+
+Allocated resources: [1 1 1 1 1 1 1 1 1 2]
+
+Available resources: [1 2 4 7 4 2 5 2 6 1]
+
+Running Status: [true true true]
+
+Process 2 is executing
+	The processes are in safe state
+	Available resources:[1 2 4 7 4 2 5 2 6 2]
+
+Process 3 is executing
+	The processes are in safe state
+	Available resources:[2 3 5 8 5 3 6 3 7 3]
+
+Process 1 is executing
+	The processes are in safe state
+	Available resources:[2 3 5 8 5 3 6 3 7 3]
+
+
+Banker's Algorithm took 481us
