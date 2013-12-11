@@ -42,4 +42,4 @@ Process 5 is executing
 	Available resources:[8 5 9 7]
 
 
-Banker's Algorithm took 1.292ms
+Banker's Algorithm took 385us

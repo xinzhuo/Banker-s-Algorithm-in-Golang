@@ -17,4 +17,4 @@ Running Status: [true true]
 
 The processes are in unsafe state (May cause deadlock).
 
-Banker's Algorithm took 219us
+Banker's Algorithm took 258us

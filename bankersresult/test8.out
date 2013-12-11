@@ -30,4 +30,4 @@ Process 1 is executing
 	Available resources:[2 3 5 8 5 3 6 3 7 3]
 
 
-Banker's Algorithm took 481us
+Banker's Algorithm took 490us

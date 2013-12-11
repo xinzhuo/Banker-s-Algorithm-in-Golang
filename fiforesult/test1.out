@@ -15,4 +15,4 @@ Running Status: [true]
 
 The processes are in not safe under FIFO (Need better scheduling mechnism).
 
-FIFO took 207us
+FIFO took 145us

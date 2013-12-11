@@ -13,7 +13,7 @@ func run() {
     var i, j, r, p int
     
     //fmt.Printf("Enter the number of processes: ")
-    var running [5]bool
+    var running [15]bool
     fmt.Scanf("%d", &p)
     for i=0; i<p; i++ {
         running[i] = true

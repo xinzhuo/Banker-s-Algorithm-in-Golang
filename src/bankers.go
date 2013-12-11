@@ -13,7 +13,7 @@ func run() {
     var count, i, j, r, p int
     
     //fmt.Printf("Enter the number of processes: ")
-    var running [5]bool
+    var running [15]bool
     fmt.Scanf("%d", &p)
     for i=0; i<p; i++ {
         running[i] = true
@@ -58,7 +58,7 @@ func run() {
         avl[i]=maxres[i]-alloc[i]
     }
 
-    fmt.Printf("\nThe resource of instances:")
+    fmt.Printf("\nThe instances of the resources:")
     fmt.Println(maxres[0:r]);
 
     fmt.Printf("\nThe maximum resource table: \n")

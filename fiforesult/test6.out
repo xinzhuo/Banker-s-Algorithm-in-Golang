@@ -31,4 +31,4 @@ Process 2 is executing
 
 The processes are in not safe under FIFO (Need better scheduling mechnism).
 
-FIFO took 289us
+FIFO took 272us

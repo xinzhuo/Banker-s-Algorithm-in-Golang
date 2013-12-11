@@ -33,4 +33,4 @@ Running Status: [true true true true true true true true true true]
 
 The processes are in not safe under LIFO (Need better scheduling mechnism).
 
-LIFO took 583us
+LIFO took 526us

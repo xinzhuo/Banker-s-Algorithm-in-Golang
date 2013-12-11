@@ -27,4 +27,4 @@ Process 1 is executing
 
 The processes are in unsafe state (May cause deadlock).
 
-Banker's Algorithm took 173us
+Banker's Algorithm took 346us
