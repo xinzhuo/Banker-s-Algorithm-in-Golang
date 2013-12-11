@@ -1,4 +1,4 @@
-This is an implementation of the Banker's Algorithm in Golang  
+#This is an implementation of the Banker's Algorithm in Golang(H1)  
 It will determine if certain state is safe or unsafe (may cause deadlock)  
 If the given state is safe, which means its all subsequent states are safe, the program will give the safe sequence of the processes and the corresponding available resources in OS  
 The program also have a timer to measure its performance with different test cases  

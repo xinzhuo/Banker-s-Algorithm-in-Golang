@@ -5,15 +5,14 @@ import (
 )
 func timeTrack(start time.Time, name string) {
     elapsed := time.Since(start)
-    fmt.Printf("\n%s took %s", name, elapsed)
+    fmt.Printf("\n\n%s took %s\n", name, elapsed)
 }
 func run() {
     defer timeTrack(time.Now(), "Banker's Algorithm")
     var safe, exec bool
     var count, i, j, r, p int
-    //var i, j, p, r, count int
-
-    fmt.Printf("Enter the number of processes: ")
+    
+    //fmt.Printf("Enter the number of processes: ")
     var running [5]bool
     fmt.Scanf("%d", &p)
     for i=0; i<p; i++ {
@@ -21,28 +20,28 @@ func run() {
         count++
     }
 
-    fmt.Printf("Enter the number of resources: ")
+    //fmt.Printf("Enter the number of resources: ")
     fmt.Scanf("%d", &r)
 
-    var curr [5][5]int //currently allocated resources
-    var maxclaim [5][5]int //maximum resources
-    var avl [5]int //available resources
-    var alloc [5]int
-    var maxres [5]int
+    var curr [15][15]int //currently allocated resources
+    var maxclaim [15][15]int //maximum resources
+    var avl [15]int //available resources
+    var alloc [15]int
+    var maxres [15]int
 
-    fmt.Printf("Enter the number of resource for instance: ")
+    //fmt.Printf("Enter the number of resource for instance: ")
     for i=0; i<r; i++ {
         fmt.Scanf("%d", &maxres[i])
     }
 
-    fmt.Printf("Enter maximum resource table: \n")
+    //fmt.Printf("Enter maximum resource table: \n")
     for i=0; i<p; i++{
         for j=0; j<r; j++{
             fmt.Scanf("%d", &maxclaim[i][j])
         }
     }
 
-    fmt.Printf("\nEnter allocated resource table: \n")
+    //fmt.Printf("\nEnter allocated resource table: \n")
     for i=0; i<p; i++{
         for j=0; j<r; j++{
             fmt.Scanf("%d", &curr[i][j])
@@ -114,7 +113,6 @@ func run() {
         }
     }
 }
-
 
 func main() {
     run()
