@@ -13,7 +13,7 @@ func run() {
     var count, i, j, r, p int
     
     //fmt.Printf("Enter the number of processes: ")
-    var running [15]bool
+    var running [5]bool
     fmt.Scanf("%d", &p)
     for i=0; i<p; i++ {
         running[i] = true
@@ -94,12 +94,13 @@ func run() {
                 if exec{
                     fmt.Printf("\nProcess %d is executing", i+1)
                     running[i]=false
-                    count--
                     safe=true
                     for j=0; j<r; j++ {
                         avl[j]+=curr[i][j]
                     }
                     break
+                }else {
+                    safe=false
                 }
             }
         }
@@ -110,6 +111,7 @@ func run() {
             fmt.Printf("\n\tThe processes are in safe state")
             fmt.Printf("\n\tAvailable resources:")
             fmt.Println(avl[0:r])
+            count--
         }
     }
 }
