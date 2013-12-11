@@ -8,7 +8,7 @@ func timeTrack(start time.Time, name string) {
     fmt.Printf("\n\n%s took %s\n", name, elapsed)
 }
 func run() {
-    defer timeTrack(time.Now(), "FIFO")
+    defer timeTrack(time.Now(), "LIFO")
     var exec bool
     var i, j, r, p int
     
@@ -80,7 +80,7 @@ func run() {
     fmt.Printf("\nRunning Status: ")
     fmt.Println(running[0:p])
     exec=true
-    for i=0; i<p; i++{
+    for i=p-1; i>=0; i--{
         if exec {
             for j=0; j<r; j++{
                 if maxclaim[i][j]-curr[i][j] > avl[j]{
@@ -101,7 +101,7 @@ func run() {
         }    
     }
     if !exec {
-        fmt.Printf("\nThe processes are in not safe under FIFO (Need better scheduling mechnism).")
+        fmt.Printf("\nThe processes are in not safe under LIFO (Need better scheduling mechnism).")
     }
 }
 
