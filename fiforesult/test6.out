@@ -1,0 +1,34 @@
+
+The resource of instances:[6 8]
+
+The maximum resource table: 
+[4 4]
+[5 4]
+[6 2]
+[1 0]
+[0 8]
+
+The allocated resource table: 
+[4 3]
+[1 1]
+[0 0]
+[1 0]
+[0 1]
+
+Allocated resources: [6 5]
+
+Available resources: [0 3]
+
+Running Status: [true true true true true]
+
+Process 1 is executing
+	The processes are in safe state
+	Available resources:[4 6]
+
+Process 2 is executing
+	The processes are in safe state
+	Available resources:[5 7]
+
+The processes are in not safe under FIFO (Need better scheduling mechnism).
+
+FIFO took 289us
